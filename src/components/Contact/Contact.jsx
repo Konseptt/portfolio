@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
@@ -16,7 +16,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_8sjbp4c', 'template_no23275', form.current, '2mhTvYiNWZ-t3VT6q')
+    emailjs.sendForm('contact_service', 'contact_form', form.current, '2mhTvYiNWZ-t3VT6q')
       .then((result) => {
           toast.success("Message sent to Ranjan");
       }, (error) => {
@@ -25,7 +25,6 @@ const Contact = () => {
 
     e.target.reset();
   };
-
 
   return (
     <section id='contact'>
@@ -64,8 +63,8 @@ const Contact = () => {
         
         {/* END OF CONTACT OPTIONS  */}
         <form ref={form} onSubmit={sendEmail} >
-           <input type="text" name='name' placeholder='Full Name' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='800' required/>
-           <input type="email" name='email' placeholder='Email' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='950' required/>
+           <input type="text" name='user_name' placeholder='Full Name' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='800' required/>
+           <input type="email" name='user_email' placeholder='Email' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='950' required/>
            <textarea name="message" placeholder='Message' rows="7" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1200' required></textarea>
            <button type='submit' className='btn btn-primary form__button' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1400'>Send Message <FaTelegramPlane className='send__message-icon'/></button>
         </form>
