@@ -28,7 +28,7 @@ const Modal = ({ closeModal, project }) => {
           <p className="modal-description">
             {description}{" "}         
             Checkout the {" "}
-            <a href={`https://github.com/snow1burnt${name}`}>source code </a>
+            <a href={`https://github.com/snow1burnt/${name}`}target='_blank'rel="noreferrer">source code </a>
             and the  <a  
                   href={deployedLink}
                   target='_blank'
