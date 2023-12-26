@@ -94,11 +94,11 @@ const Services = () => {
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p>Conducting thorough risk assessments to proactively identify and neutralize potential vulnerabilities.</p>
+                 <p>Conducting risk assessments to proactively identify, neutralize potential vulnerabilities.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                  <p>Configuring and managing advanced security tools like firewalls and intrusion detection systems.</p>
+                  <p>Managing advanced security tools for robust defense.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
@@ -110,7 +110,7 @@ const Services = () => {
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p>Educating and training personnel on cybersecurity protocols to ensure a vigilant workforce.</p> 
+                 <p>Educating personnel on vital cybersecurity protocols.</p> 
               </li>
             </ul>
           </article>
