@@ -8,23 +8,24 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [ 
+    {
+      name: "Youtube-Clone",
+      deployedLink: "https://youtube.ranjansharma.info.np/",
+      image: require('../../assets/youtube.png'),
+      description: "YoutubeClone: a React JS and Material UI 5-based YouTube replica. Enjoy seamless video browsing all with a sleek and intuitive interface. YouTube experience to life with modern web tech.",
+      fadeDuration: "1100",
+      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT','Web sockets']
+    },
     { 
-      name : "3D SHM visualization",
+      name : "3D-Simple-Harmonic-Motion-Visualization",
       deployedLink: "https://shm.ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
+      image: require('../../assets/starship.gif'),
       fadeDuration:'1000',
       description: 'StarShip provides users the platform to track stock market data. Users are able to track the market in general or they can search up a specific stock.',
       toolsUsed: ['React','MongoDb','NodeJs','Express','MUI','GraphQl', 'JWT', 'PWA']
     
     },
-    {
-      name: "Work in progress",
-      deployedLink: "https://ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
-      description: "Welcome to Chatter, a social media application that allows users to connect and interact with each other in real-time.",
-      fadeDuration: "1100",
-      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT','Web sockets']
-    },
+
     {
       name : "Work in progress",
       deployedLink: "https://ranjansharma.info.np/",
