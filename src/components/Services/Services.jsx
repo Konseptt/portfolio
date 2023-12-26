@@ -90,27 +90,27 @@ const Services = () => {
           <ul className="service__list">
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p>solid understanding of cyber security principles and best practices.</p>
+                 <p>Implementing robust defense mechanisms to safeguard digital assets against evolving cyber threats.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p>completed online courses in network security, cryptography, and ethical hacking.</p>
+                 <p>Conducting thorough risk assessments to proactively identify and neutralize potential vulnerabilities.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                  <p> working on it</p>
+                  <p>Configuring and managing advanced security tools like firewalls and intrusion detection systems.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p> working on it</p>
+                 <p>Performing regular security audits and penetration testing to fortify system resilience.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p> working on it</p>
+                 <p>Providing swift incident response and ongoing monitoring to detect and counter breaches.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon'/>
-                 <p>working on it</p> 
+                 <p>Educating and training personnel on cybersecurity protocols to ensure a vigilant workforce.</p> 
               </li>
             </ul>
           </article>
