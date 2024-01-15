@@ -27,34 +27,34 @@ const Portfolio = () => {
     },
 
     {
-      name : "Work in progress",
-      deployedLink: "https://ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
+      name : "Rust-Ai-Car_Driving",
+      deployedLink: "https://youtu.be/BzCkSsQmezE?si=9nDR2ga73ZizcMFH",
+      image: require('../../assets/rust.gif'),
       fadeDuration:'1200',
       description:"CMS-style blog site that can publish articles, blog posts, thoughts and opinions",
       toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
     },
     {
-      name:"Work in progress",
-      deployedLink: "https://ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
+      name:"Discord Music Bot",
+      deployedLink: "https://discord.com/api/oauth2/authorize?client_id=1195042358371291327&permissions=8&scope=bot",
+      image: require('../../assets/bot.png'),
       fadeDuration:'1300',
       description:"A web application designed to allow users to get directions and uses real-time traffic information to find the best route to your destination.",
       toolsUsed: ['Mapbox API','tailwind','HTML/CSS','localStorage']
     },
     {
-      name: "Work in progress",
-      deployedLink: "https://ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
-      fadeDuration:'1400',
+      name: "Pixel-Visualization",
+      deployedLink: "https://pixel.ranjansharma.info.np/",
+      image: require('../../assets/pixel.gif'),
+      fadeDuration:'1500',
       description:"A full stack web application that allows users to buy cars, book test drives and so much more",
       toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
     },
     
     {
-      name:"Work in progress",
-      deployedLink: "https://ranjansharma.info.np/",
-      image: require('../../assets/berg.png'),
+      name:"Netflix-Clone",
+      deployedLink: "https://netflix-ranjansharma.vercel.app/browse",
+      image: require('../../assets/netflix.png'),
       fadeDuration:'1500',
       description:"A Progressive web application that allows users to create notes or code snippets with or without an internet connection so they can reliably retrieve them for later use",
       toolsUsed: ['indexDb','HTML/CSS','localStorage','Webpack']
