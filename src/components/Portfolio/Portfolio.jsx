@@ -29,7 +29,7 @@ const Portfolio = () => {
     {
       name : "Rust-Ai-Car_Driving",
       deployedLink: "https://youtu.be/BzCkSsQmezE?si=9nDR2ga73ZizcMFH",
-      image: require('../../assets/rust.gif'),
+      image: require('../../assets/rust.png'),
       fadeDuration:'1200',
       description:"CMS-style blog site that can publish articles, blog posts, thoughts and opinions",
       toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
