@@ -23,13 +23,12 @@ const Portfolio = () => {
     { 
       name : "3D-Simple-Harmonic-Motion-Visualization",
       deployedLink: "https://shm.ranjansharma.info.np/",
-      image: require('../../assets/starship.gif'),
+      image: require('../../assets/shm.gif'),
       fadeDuration:'1000',
       description: 'This project presents an interactive 3D visualization tool for Simple Harmonic Motion (SHM), designed to bring complex physics concepts to life. The application enables users to explore the nuances of SHM through a dynamic and engaging virtual environment.',
       toolsUsed: ['P5JS','WebGL','Js','HTML','CSS','JS library']
     
     },
-
     { 
       name : "Rust-Ai-Car_Driving",
       deployedLink: "https://youtu.be/BzCkSsQmezE?si=9nDR2ga73ZizcMFH",
@@ -42,27 +41,26 @@ const Portfolio = () => {
     {
       name:"Discord Music Bot",
       deployedLink: "https://discord.com/api/oauth2/authorize?client_id=1195042358371291327&permissions=8&scope=bot",
-      image: require('../../assets/bot.png'),
+      image: require('../../assets/bot (1).png'),
       fadeDuration:'1300',
-      description:"A web application designed to allow users to get directions and uses real-time traffic information to find the best route to your destination.",
-      toolsUsed: ['Mapbox API','tailwind','HTML/CSS','localStorage']
+      description:"The Discord Music Bot is a dynamic and user-friendly bot designed for Discord servers, developed using TypeScript. It enhances the music listening experience on Discord by allowing users to play music directly from YouTube and Spotify. This bot is a perfect integration for communities that enjoy sharing music and playlists.",
+      toolsUsed: ['TypeScript','Discord API','Youtube API','Spotify API']
     },
     {
       name: "Hashpass",
       deployedLink: "https://hashpass.ranjansharma.info.np/",
       image: require('../../assets/hash.png'),
       fadeDuration:'1500',
-      description:"A full stack web application that allows users to buy cars, book test drives and so much more",
-      toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
+      description:"HashPass is a cutting-edge web application designed to enhance cybersecurity measures by providing robust password hashing services. This tool is tailored for both individuals and organizations who prioritize the security of their digital accounts.",
+      toolsUsed: ['Rust','HTML','CSS','JS','TypeScript']
     },
-    
     {
       name:"Netflix-Clone",
       deployedLink: "https://netflix-ranjansharma.vercel.app/browse",
       image: require('../../assets/netflix.png'),
       fadeDuration:'1500',
-      description:"A Progressive web application that allows users to create notes or code snippets with or without an internet connection so they can reliably retrieve them for later use",
-      toolsUsed: ['indexDb','HTML/CSS','localStorage','Webpack']
+      description:"like experience. This project showcases an intuitive interface for browsing and streaming a wide range of movies and TV shows.",
+      toolsUsed: ['Node.js' , 'Express.js','HTML/CSS','MongoDB','Vercel']
     }
   ]
 
@@ -78,6 +76,7 @@ const Portfolio = () => {
     <section id='portfolio'>
         <h5 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='700'>My most recent projects</h5>
         <h2 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='900'>My Portfolio</h2>
+        <h5 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='900'>Click on projects to learn more</h5>
 
         <div className="container portfolio__container">
 
