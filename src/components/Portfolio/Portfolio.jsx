@@ -8,31 +8,36 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [ 
-    {
-      name: "Youtube-Clone",
-      deployedLink: "https://youtube.ranjansharma.info.np/",
-      image: require('../../assets/youtube.png'),
-      description: "YoutubeClone: a React JS and Material UI 5-based YouTube replica. Enjoy seamless video browsing all with a sleek and intuitive interface. YouTube experience to life with modern web tech.",
-      fadeDuration: "1100",
-      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI', 'JWT','Web sockets']
-    },
+      {
+        name: "Youtube-Clone",
+        deployedLink: "https://youtube.ranjansharma.info.np/",
+        image: require('../../assets/youtube.png'),
+        description: `Streamline, a Youtube-Clone, is a React JS and Material UI 5-based platform replicating 
+        the YouTube experience with a focus on minimalism and user-friendliness. It is a minimalist video streaming platform inspired 
+        by the functionality and aesthetic of YouTube. This project showcases my ability to replicate and simplify complex web 
+        applications, focusing on user experience and streamlined design.`,
+        fadeDuration: "1100",
+        toolsUsed: ['React', 'NodeJs', 'HTML', 'CSS', 'JWT', 'API']
+      },
+      
     { 
       name : "3D-Simple-Harmonic-Motion-Visualization",
       deployedLink: "https://shm.ranjansharma.info.np/",
       image: require('../../assets/starship.gif'),
       fadeDuration:'1000',
-      description: 'StarShip provides users the platform to track stock market data. Users are able to track the market in general or they can search up a specific stock.',
-      toolsUsed: ['React','MongoDb','NodeJs','Express','MUI','GraphQl', 'JWT', 'PWA']
+      description: 'This project presents an interactive 3D visualization tool for Simple Harmonic Motion (SHM), designed to bring complex physics concepts to life. The application enables users to explore the nuances of SHM through a dynamic and engaging virtual environment.',
+      toolsUsed: ['P5JS','WebGL','Js','HTML','CSS','JS library']
     
     },
 
-    {
+    { 
       name : "Rust-Ai-Car_Driving",
       deployedLink: "https://youtu.be/BzCkSsQmezE?si=9nDR2ga73ZizcMFH",
       image: require('../../assets/rust.png'),
       fadeDuration:'1200',
-      description:"CMS-style blog site that can publish articles, blog posts, thoughts and opinions",
-      toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
+      description: 'Rust-Ai-Car_Driving is an exhilarating project set in a road-fighter inspired virtual world. This interactive experience explores the fusion of artificial intelligence and gaming, as cars navigate the digital terrain using neural networks powered by a genetic algorithm.',
+      toolsUsed: ['Rust','Bevy Game Engine','Neural Networks','Genetic Algorithms']
+    
     },
     {
       name:"Discord Music Bot",
@@ -43,9 +48,9 @@ const Portfolio = () => {
       toolsUsed: ['Mapbox API','tailwind','HTML/CSS','localStorage']
     },
     {
-      name: "Pixel-Visualization",
-      deployedLink: "https://pixel.ranjansharma.info.np/",
-      image: require('../../assets/pixel.gif'),
+      name: "Hashpass",
+      deployedLink: "https://hashpass.ranjansharma.info.np/",
+      image: require('../../assets/hash.png'),
       fadeDuration:'1500',
       description:"A full stack web application that allows users to buy cars, book test drives and so much more",
       toolsUsed: ['Handlebars','mySQl','NodeJs','Express','Bootstrap','sequelize']
