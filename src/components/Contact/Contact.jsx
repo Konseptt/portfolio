@@ -53,9 +53,9 @@ const Contact = () => {
           {/* Instagram  */}
           <article className="contact__option" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1000'>
             <BsInstagram className='contact__option-icon'/>
-            <h4>Instagram</h4>
-            <h5>konsept</h5>
-            <a href="https://www.instagram.com/snow_burnt/" target='_blank'  rel="noreferrer">Send a DM</a>
+            <h4>Github</h4>
+            <h5>snow1burnt</h5>
+            <a href="https://github.com/snow1burnt" target='_blank'  rel="noreferrer">Send a DM</a>
           </article>
 
           
