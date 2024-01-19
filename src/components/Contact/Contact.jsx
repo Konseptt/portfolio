@@ -47,15 +47,15 @@ const Contact = () => {
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Ranjan Sharma</h5>
-            <a href="https://www.linkedin.com/in/ranjan-5harma/" target='_blank'  rel="noreferrer">Let's connect</a>
+            <a href="https://www.linkedin.com/in/konseptt/" target='_blank'  rel="noreferrer">Let's connect</a>
           </article>
 
           {/* Instagram  */}
           <article className="contact__option" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1000'>
             <BsInstagram className='contact__option-icon'/>
             <h4>Github</h4>
-            <h5>snow1burnt</h5>
-            <a href="https://github.com/snow1burnt" target='_blank'  rel="noreferrer">Send a DM</a>
+            <h5>konseptt</h5>
+            <a href="https://github.com/konseptt" target='_blank'  rel="noreferrer">Send a DM</a>
           </article>
 
           
