@@ -94,7 +94,7 @@ const Portfolio = () => {
 
               <div className="portfolio__item-cta">
                 <a className='btn' 
-                  href={`https://github.com/snow1burnt/${name}`}
+                  href={`https://github.com/konseptt/${name}`}
                   target='_blank'
                   rel="noreferrer"
                 >GitHub</a>
