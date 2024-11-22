@@ -11,7 +11,7 @@ const Portfolio = () => {
       {
         name: "Youtube-Clone",
         deployedLink: "https://youtube.ranjansharma.info.np/",
-        image: require('../../assets/youtube.png'),
+        image: require('../../assets/youtube.webp'),
         description: `Streamline, a Youtube-Clone, is a React JS and Material UI 5-based platform replicating 
         the YouTube experience with a focus on minimalism and user-friendliness. It is a minimalist video streaming platform inspired 
         by the functionality and aesthetic of YouTube. This project showcases my ability to replicate and simplify complex web 
@@ -23,7 +23,7 @@ const Portfolio = () => {
     { 
       name : "3D-Simple-Harmonic-Motion-Visualization",
       deployedLink: "https://shm.ranjansharma.info.np/",
-      image: require('../../assets/shm.gif'),
+      image: require('../../assets/shm.webp'),
       fadeDuration:'1000',
       description: 'This project presents an interactive 3D visualization tool for Simple Harmonic Motion (SHM), designed to bring complex physics concepts to life. The application enables users to explore the nuances of SHM through a dynamic and engaging virtual environment.',
       toolsUsed: ['P5JS','WebGL','Js','HTML','CSS','JS library']
@@ -32,24 +32,24 @@ const Portfolio = () => {
     { 
       name : "Rust-Ai-Car_Driving",
       deployedLink: "https://youtu.be/BzCkSsQmezE?si=9nDR2ga73ZizcMFH",
-      image: require('../../assets/rust.png'),
+      image: require('../../assets/rust.webp'),
       fadeDuration:'1200',
       description: 'Rust-Ai-Car_Driving is an exhilarating project set in a road-fighter inspired virtual world. This interactive experience explores the fusion of artificial intelligence and gaming, as cars navigate the digital terrain using neural networks powered by a genetic algorithm.',
       toolsUsed: ['Rust','Bevy Game Engine','Neural Networks','Genetic Algorithms']
     
     },
     {
-      name:"Discord Music Bot",
-      deployedLink: "https://discord.com/api/oauth2/authorize?client_id=1195042358371291327&permissions=8&scope=bot",
-      image: require('../../assets/bot (1).png'),
-      fadeDuration:'1300',
-      description:"The Discord Music Bot is a dynamic and user-friendly bot designed for Discord servers, developed using TypeScript. It enhances the music listening experience on Discord by allowing users to play music directly from YouTube and Spotify. This bot is a perfect integration for communities that enjoy sharing music and playlists.",
-      toolsUsed: ['TypeScript','Discord API','Youtube API','Spotify API']
+      name: "Visualize-code",
+      deployedLink: "https://codetoimage.ranjansharma.info.np/",
+      image: require('../../assets/visualize.webp'),
+      fadeDuration: '1300',
+      description: "Code to Image is an innovative web application that allows users to convert their code snippets into beautiful images. This tool is perfect for developers who want to share their code on social media, blogs, or presentations with a visually appealing format.",
+      toolsUsed: ['React', 'HTML', 'CSS', 'JavaScript']
     },
     {
       name: "Hashpass",
       deployedLink: "https://hashpass.ranjansharma.info.np/",
-      image: require('../../assets/hash.png'),
+      image: require('../../assets/hash.webp'),
       fadeDuration:'1500',
       description:"HashPass is a cutting-edge web application designed to enhance cybersecurity measures by providing robust password hashing services. This tool is tailored for both individuals and organizations who prioritize the security of their digital accounts.",
       toolsUsed: ['Rust','HTML','CSS','JS','TypeScript']
@@ -57,7 +57,7 @@ const Portfolio = () => {
     {
       name:"Netflix-Clone",
       deployedLink: "https://netflix-ranjansharma.vercel.app/browse",
-      image: require('../../assets/netflix.png'),
+      image: require('../../assets/netflix.webp'),
       fadeDuration:'1500',
       description:"like experience. This project showcases an intuitive interface for browsing and streaming a wide range of movies and TV shows.",
       toolsUsed: ['Node.js' , 'Express.js','HTML/CSS','MongoDB','Vercel']
