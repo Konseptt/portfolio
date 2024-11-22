@@ -14,6 +14,14 @@
     gap: 2.5rem;
 }
 
+.portfolio__item-image img {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image scales to fit the width and height without distortion */
+    border-radius: 8px; /* Optional: Adds a border radius for a rounded edge effect */
+  }
+  
+
 .portfolio__item{
     background: var(--color-bg-variant);
     padding: 1.2rem;

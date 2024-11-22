@@ -13,7 +13,7 @@ const Review = () => {
 
   const reviewData = [
     {
-      avatar: require('../../assets/avatar1.png'),
+      avatar: require('../../assets/avatar1.webp'),
       name: 'Random',
       review: `It's rare that you come across standout talent like Ranjan Sharma. 
       I had the pleasure of working with Ranjan Sharma for three years at college, 
@@ -21,7 +21,7 @@ const Review = () => {
       I'm was always in awe of Ranjan Sharma ability to command a room and always so passionate with his work. Ranjan Sharma would be an asset to any team.`
     },
     {
-      avatar: require('../../assets/avatar2.png'),
+      avatar: require('../../assets/avatar2.webp'),
       name: "Random",
       review: `It was such a pleasure to take a few classes with Ranjan Sharma. He was always accommodating, kind, and motivated. We worked on some projects together, and he is very applied and aims for high-quality work.
       He is creative, smart, has excellent communication skills, and is willing to help when you need it. He is the kind of person who does anything for the group’s benefit. A great colleague!`
