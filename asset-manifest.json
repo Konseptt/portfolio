@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.07bf39f8.css",
-    "main.js": "/static/js/main.58f91152.js",
-    "static/media/shm.gif": "/static/media/shm.6be904695b053bc47b29.gif",
-    "static/media/netflix.png": "/static/media/netflix.de45b2f2dabe0e4250e6.png",
-    "static/media/youtube.png": "/static/media/youtube.13aa74615b2cd2cb9d49.png",
-    "static/media/rust.png": "/static/media/rust.abe53220f61a0e4243d0.png",
-    "static/media/bot (1).png": "/static/media/bot (1).192d2d1a2b7d9630dea2.png",
-    "static/media/e.png": "/static/media/e.68471a4cad45e41e1ad3.png",
-    "static/media/avatar2.png": "/static/media/avatar2.fa5071619e282f6352dd.png",
-    "static/media/hash.png": "/static/media/hash.b09f2aa74745a9f64216.png",
-    "static/media/avatar1.png": "/static/media/avatar1.bf1b0fa9504f95682fb4.png",
+    "main.css": "/static/css/main.7d0901cd.css",
+    "main.js": "/static/js/main.9b90b57d.js",
+    "static/media/shm.webp": "/static/media/shm.b48a6ecafb34fb6fc120.webp",
+    "static/media/netflix.webp": "/static/media/netflix.234a578f652fe11f3990.webp",
+    "static/media/youtube.webp": "/static/media/youtube.f352cfa2986bb73ebf54.webp",
+    "static/media/rust.webp": "/static/media/rust.5eff880b7c3647b0b730.webp",
+    "static/media/e.webp": "/static/media/e.0b5141785419ce36ab31.webp",
+    "static/media/avatar2.webp": "/static/media/avatar2.1e2ed324a2971ab066f6.webp",
+    "static/media/avatar1.webp": "/static/media/avatar1.07f148d8b2055b8c32e6.webp",
+    "static/media/hash.webp": "/static/media/hash.21b126c76a97d6cf9a78.webp",
+    "static/media/visualize.webp": "/static/media/visualize.f275988576208696e737.webp",
     "index.html": "/index.html",
-    "main.07bf39f8.css.map": "/static/css/main.07bf39f8.css.map",
-    "main.58f91152.js.map": "/static/js/main.58f91152.js.map"
+    "main.7d0901cd.css.map": "/static/css/main.7d0901cd.css.map",
+    "main.9b90b57d.js.map": "/static/js/main.9b90b57d.js.map"
   },
   "entrypoints": [
-    "static/css/main.07bf39f8.css",
-    "static/js/main.58f91152.js"
+    "static/css/main.7d0901cd.css",
+    "static/js/main.9b90b57d.js"
   ]
 }
