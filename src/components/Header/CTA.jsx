@@ -6,7 +6,7 @@ const CTA = () => {
       <a
         data-aos="fade-right"
         target="_blank"
-        href="https://cv.ranjansharma.info.np/"
+        href="https://cli.ranjansharma.info.np/"
         className="btn"
         rel="noreferrer"
       >
