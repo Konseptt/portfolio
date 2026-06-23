@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-# AI / LLM crawlers — explicitly allowed for AI-search (GEO) visibility
+# AI / LLM crawlers - explicitly allowed for AI-search (GEO) visibility
 User-agent: GPTBot
 Allow: /
 
