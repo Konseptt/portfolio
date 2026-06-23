@@ -1,0 +1,27 @@
+# Ranjan Sharma
+
+> Ranjan Sharma (also known online as Konsept / konseptt) is a USA-based cybersecurity engineer and software engineer. This is his official personal portfolio and entity home at https://ranjansharma.info.np/.
+
+Ranjan Sharma codes "anything and everything" - lately in Rust and TypeScript. His recent work spans programming-language and compiler design, AI-powered research tools, autonomous-vehicle simulation, and security applications, across 50+ public repositories.
+
+## Profiles
+- [LinkedIn](https://www.linkedin.com/in/konseptt/)
+- [GitHub](https://github.com/konseptt)
+
+## Latest projects
+- [LyangLang](https://github.com/Konseptt/LyangLang): A programming language and compiler with Nepali-language syntax, written in Rust.
+- [Synapse Research](https://github.com/Konseptt/synapse-research): Biomedical research intelligence - PubMed search with instant evidence overviews.
+- [Clinical Trial Matcher](https://github.com/Konseptt/clinical-trial-matcher): Search international clinical-trial registries using a patient's clinical details.
+- [Interview Question Predictor](https://github.com/Konseptt/interview-question-predictor): Paste a job description and get the 15 most likely interview questions.
+- [Rust Autonomous Vehicle Simulation](https://github.com/Konseptt/Rust-Autonomous-Vehicle-Simulation): Self-driving cars using neural networks trained by a genetic algorithm (Rust, Bevy). Demo: https://youtu.be/BzCkSsQmezE
+- [HashPass](https://hashpass.ranjansharma.info.np/): Generate secure passwords using a hashing algorithm.
+- [Code to Image](https://codetoimage.ranjansharma.info.np/): Turn code snippets into polished, shareable images.
+- [3D SHM Visualization](https://shm.ranjansharma.info.np/): Interactive 3D Simple Harmonic Motion physics tool (p5.js / WebGL).
+- [Streamline - YouTube Clone](https://youtube.ranjansharma.info.np/): Minimalist video streaming platform (React, Material UI).
+
+## Skills
+Cybersecurity, penetration testing, web application security, Rust, systems programming, compiler and programming-language design, AI / LLM application development, React, JavaScript, TypeScript, Node.js, Python, Java, C, C++, MongoDB, MySQL, Django, REST APIs, data structures and algorithms, HTML, CSS, Tailwind CSS.
+
+## Contact
+- Email: hello@ranjansharma.info.np
+- Resume: https://cli.ranjansharma.info.np/
