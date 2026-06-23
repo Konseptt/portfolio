@@ -43,7 +43,7 @@ const Header = () => {
             data-aos-anchor=".logo"
             data-aos-duration="1400"
             src={Logo}
-            alt="me"
+            alt="Ranjan Sharma - cybersecurity and software engineer portrait"
           />
         </div>
 

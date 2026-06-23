@@ -15,81 +15,64 @@ import Loader from './components/Loader/Loader';
 const App = () => {
 
   const [isLoading, setIsLoading] = useState(true);
-  // const isLoading = false
   const [activeNav,setActiveNav] = useState('#')
 
-   
   useEffect(() => {
+    const hideLoader = () => setIsLoading(false);
+    if (document.readyState === 'complete') {
+      hideLoader();
+    } else {
+      window.addEventListener('load', hideLoader, { once: true });
+    }
 
-    //Stop the loader afer 2 secs
-    setTimeout(()=> setIsLoading(false),2000)
-    
-    //Initialize Animate on scroll
     AOS.init({
-      duration: 800, 
-      disable:function () {
-        var maxWidth = 1024;
-        return window.innerWidth < maxWidth;
+      duration: 800,
+      disable: function () {
+        return window.innerWidth < 1024;
       }
-  })
+    });
 
+    const section = document.querySelectorAll('section');
 
-
-    let section = document.querySelectorAll('section')
- 
-
-    window.addEventListener('scroll',(e) => {
-      if(window.scrollY < 50){
-        setActiveNav(`#`);        
+    const onScroll = () => {
+      if (window.scrollY < 50) {
+        setActiveNav('#');
+        return;
       }
-      
+
       section.forEach(sec => {
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 150;
-        let height = sec.offsetHeight;
-        let id =  sec.getAttribute('id');
-              
-        if(top >= offset && top < offset + height){
-              setActiveNav(`#${id}`);        
-        }    
-      })
+        const top = window.scrollY;
+        const offset = sec.offsetTop - 150;
+        const height = sec.offsetHeight;
+        const id = sec.getAttribute('id');
 
+        if (top >= offset && top < offset + height) {
+          setActiveNav(`#${id}`);
+        }
+      });
+    };
 
-     
-   })
-  },[activeNav, isLoading])
+    window.addEventListener('scroll', onScroll);
+
+    return () => {
+      window.removeEventListener('load', hideLoader);
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, []);
 
   return (
    isLoading ? <Loader/> : (
-    <>
-      {/* Header section  */}
+    <main>
       <Header/>
-
-      {/* Nav section  */}
       <Nav activeNav={activeNav} setActiveNav={setActiveNav}/>
-
-      {/* About Section */}
       <About/>
-
-      {/* Experience section */}
       <Experience/>
-
-      {/* Services section  */}
-      <Services /> 
-
-      {/* Portfolio section  */}
+      <Services />
       <Portfolio/>
-
-      {/* References section  */}
       <Review/>
-
-      {/* Contact section  */}
       <Contact/>
-
-      {/* Footer Section  */}
       <Footer/>
-
-    </>
+    </main>
    )
   )
 }

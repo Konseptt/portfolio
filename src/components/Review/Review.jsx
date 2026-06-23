@@ -46,7 +46,7 @@ const Review = () => {
             reviewData.map(({avatar, name,review }, index) => (
               <SwiperSlide className="review" key={index}>
                 <div className="client__avatar">
-                  <img src={avatar} alt="Avatar One" />
+                  <img src={avatar} alt={`${name} reviewer avatar`} />
                 </div>
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>

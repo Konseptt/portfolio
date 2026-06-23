@@ -63,9 +63,9 @@ const Contact = () => {
         
         {/* END OF CONTACT OPTIONS  */}
         <form ref={form} onSubmit={sendEmail} >
-           <input type="text" name='user_name' placeholder='Full Name' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='800' required/>
-           <input type="email" name='user_email' placeholder='Email' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='950' required/>
-           <textarea name="message" placeholder='Message' rows="7" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1200' required></textarea>
+           <input type="text" name='user_name' placeholder='Full Name' aria-label="Full Name" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='800' required/>
+           <input type="email" name='user_email' placeholder='Email' aria-label="Email" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='950' required/>
+           <textarea name="message" placeholder='Message' rows="7" aria-label="Message" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1200' required></textarea>
            <button type='submit' className='btn btn-primary form__button' data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1400'>Send Message <FaTelegramPlane className='send__message-icon'/></button>
         </form>
         

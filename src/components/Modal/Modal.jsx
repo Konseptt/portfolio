@@ -5,7 +5,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Modal = ({ closeModal, project }) => {
    
-  const {name,image,deployedLink,description, toolsUsed} = project;
+  const {name, image, deployedLink, githubLink, description, toolsUsed} = project;
 
   return (
     <>
@@ -19,7 +19,7 @@ const Modal = ({ closeModal, project }) => {
 
           <div className="modal-title">
                 <div className="modal-image">
-                    <img src={image} alt={`${name} app Screenshot`} />
+                    <img src={image} alt={`${name} project screenshot by Ranjan Sharma`} />
                 </div>
           
                 <h4>{name}</h4>
@@ -28,7 +28,7 @@ const Modal = ({ closeModal, project }) => {
           <p className="modal-description">
             {description}{" "}         
             Checkout the {" "}
-            <a href={`https://github.com/konseptt/${name}`}target='_blank'rel="noreferrer">source code </a>
+            <a href={githubLink} target='_blank' rel="noreferrer">source code </a>
             and the  <a  
                   href={deployedLink}
                   target='_blank'
