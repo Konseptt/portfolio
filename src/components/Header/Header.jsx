@@ -28,7 +28,7 @@ const Header = () => {
           data-aos-duration="900"
           className="text-light header__roles"
         >
-          CYBER SECURITY ENGINEER | SOFTWARE ENGINEER | FRONT-END WEB DEVELOPER.
+          CYBERSECURITY ENGINEER · SOFTWARE ENGINEER · FRONT-END DEVELOPER
         </p>
         <CTA />
 

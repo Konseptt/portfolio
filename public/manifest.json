@@ -1,7 +1,7 @@
 {
   "name": "Ranjan Sharma - Portfolio",
   "short_name": "Ranjan Sharma",
-  "description": "Official portfolio of Ranjan Sharma, cybersecurity engineer, software engineer, and front-end web developer.",
+  "description": "Portfolio of Ranjan Sharma. Cybersecurity and software engineer building in Rust and TypeScript.",
   "lang": "en",
   "start_url": "/?source=pwa",
   "scope": "/",

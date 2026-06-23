@@ -6,7 +6,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
     <section id='experience'>
-      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#experience"  data-aos-duration='900'>What are my skills?</p>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#experience"  data-aos-duration='900'>Skills</p>
       <h2 data-aos="fade-up" data-aos-anchor="#experience"  data-aos-duration='700'>My Experience</h2>
 
 
@@ -68,32 +68,44 @@ const Experience = () => {
                 </div>
               </article>
 
-              {/* Jquery  */}
+              {/* Next.js  */}
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
-                <h4>Jquery</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Next.js</h4>
+                <small className='text-light'>Experienced</small>
                 </div>
               </article>
             </div>
         </div>
 
-        {/* BACKEND sKILLS */}
-      
         <div className="experence__backend" data-aos="fade-left" data-aos-anchor=".experience__container"  data-aos-duration="1200">
-           <h3>Backend Development</h3>
+           <h3>Backend & systems</h3>
             <div className="experience__content">
-              {/* Node JS  */}
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
-                <h4>Node JS</h4>
+                <h4>Rust</h4>
                 <small className='text-light'>Experienced</small>
                 </div>
               </article>
 
-              {/* MongoDB  */}
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
+                <div>
+                <h4>Python</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
+              <article className="experience__details">
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
+                <div>
+                <h4>Node.js</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
@@ -102,34 +114,14 @@ const Experience = () => {
                 </div>
               </article>
 
-              {/* Rust  */}
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
-                <h4>Rust</h4>
+                <h4>REST APIs</h4>
                 <small className='text-light'>Experienced</small>
                 </div>
               </article>
-              
-              {/* MySQL  */}
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
-                <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
 
-              {/* REST  */}
-              <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
-                <div>
-                <h4>REST</h4>
-                <small className='text-light'>Intermediate</small>
-                </div>
-              </article>
-
-              {/* Django  */}
               <article className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>

@@ -21,7 +21,7 @@ import {
 const About = () => {
   return (
     <section id='about'>
-      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Unlock the mysteries of me</p>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Background</p>
       <h2 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='700'>About me</h2>
 
       <div className="container about__container">
@@ -51,33 +51,29 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             
-            {/* Experience  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="500">
                 <FaAward className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Experience</h3>
-                <small>4+ years Experience</small>
+                <small>4+ years coding</small>
             </article>
 
-            {/* Collaborators  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="700">
                 <FiUsers className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Collaborators</h3>
-                <small>30+ Worldwide</small>
+                <small>30+ worldwide</small>
             </article>
 
-            {/* Projects  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="900">
                 <BsClipboardCheck className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Repositories</h3>
-                <small>50+ on GitHub</small>
+                <small>55+ on GitHub</small>
             </article>
           </div>
 
            <p  data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1000">
-               Hello, there. I'm Ranjan Sharma but everyone calls me Konsept. <br />
-               I'm a software and cyber security engineer who codes "anything and everything" - lately in Rust and TypeScript, from my own programming language and compiler (LyangLang) to AI-powered research tools and security apps.
-              <br />
-            A chess, astronomy, and outdoor enthusiast, always chasing ambitious projects and good people. Let's build something useful together.
+               I'm Ranjan Sharma. Online most people know me as Konsept. I'm based in the USA and work as a cybersecurity and software engineer.
+              <br /><br />
+               Lately I've been building in Rust and TypeScript: a Nepali-syntax language called LyangLang, research tools like Synapse and Clinical Trial Matcher, and smaller web apps I ship under ranjansharma.info.np. I like chess, astronomy, and hiking when I'm not at a keyboard.
            </p>
 
            <a href='#contact' className='btn btn-primary' aria-label="Contact Ranjan Sharma" data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1200">Let's chat <FaTelegramPlane aria-hidden="true" focusable="false" /></a>

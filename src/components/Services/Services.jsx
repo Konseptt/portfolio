@@ -6,44 +6,38 @@ import { BiCheck } from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='700'>The things i can do for you</p>
-      <h2 data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='900'>My Services</h2>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='700'>What I work on</p>
+      <h2 data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='900'>Services</h2>
       
       <div className="container services__container">
         <article className="service" data-aos="fade-right" data-aos-anchor=".services__container"  data-aos-duration="900">
 
           <div className="service__head">
-            <h3>Software Engineering</h3>
+            <h3>Software engineering</h3>
           </div>
           <ul className="service__list">
              <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>well-versed in programming languages such as Java, Python, and C++.</p>
+                <p>Apps and tools in Rust, TypeScript, Python, Java, and C++.</p>
              </li>
              <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Developing user personas and user journeys to represent target audience.</p>
+                <p>Compilers, CLIs, and projects where I need to understand how things work under the hood.</p>
              </li>
              <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>very familiar with software development tools such as Git, Eclipse, and IntelliJ.</p>
+                <p>Open source on GitHub; most of my work is public.</p>
              </li>
              <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Designing the layout, navigation, and visual elements of the user interface.</p>
+                <p>Research and data tools, including PubMed search and clinical-trial lookup.</p>
              </li>
              <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-               <p>Continuously testing and iterating on the design to improve usability and effectiveness.</p>
-             </li>
-             <li>
-                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-               <p>Continuously testing and iterating on the design to improve usability.</p>
+                <p>Side projects from idea to deployed product.</p>
              </li>
           </ul>
         </article>
-
-        {/* END OF UI/UX */}
 
         <article className="service" data-aos="fade-up" data-aos-anchor=".services__container"  data-aos-duration="1200">
 
@@ -54,70 +48,55 @@ const Services = () => {
           <ul className="service__list">
             <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Designing and building websites and web applications using best practices.</p>
+                <p>React and Next.js front ends.</p>
             </li>
             <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Developing responsive, mobile-friendly websites that work on various devices.</p>
+                <p>Layouts that work on mobile and desktop.</p>
             </li>
             <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Implementing features and functionality using server-side languages</p>
+                <p>REST APIs, auth, and hooking up third-party services.</p>
             </li>
             <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Setting up and configuring servers and hosting environments</p>
+                <p>Deploy to Vercel, GitHub Pages, and custom domains.</p>
             </li>
             <li>
                 <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Testing and debugging websites and applications to ensure functionality</p>
-            </li>
-            <li>
-                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                <p>Providing technical support and assistance to website users and clients.</p>
+                <p>Debug production issues when something breaks.</p>
             </li>
           </ul>
         </article>
 
-        {/* End of web development  */}
-
-
         <article className="service" data-aos="fade-left" data-aos-anchor=".services__container"  data-aos-duration="900">
 
           <div className="service__head">
-          <h3>Cyber Security</h3>
+          <h3>Cybersecurity</h3>
           </div>
           <ul className="service__list">
               <li>
                   <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                 <p>Implementing robust defense mechanisms to safeguard digital assets against evolving cyber threats.</p>
+                 <p>Web app security reviews and pen testing.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                 <p>Conducting risk assessments to proactively identify, neutralize potential vulnerabilities.</p>
+                 <p>Find misconfigs and common vulns before they hit prod.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                  <p>Managing advanced security tools for robust defense.</p>
+                  <p>Password and crypto utilities (see HashPass).</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                 <p>Performing regular security audits and penetration testing to fortify system resilience.</p>
+                 <p>Security-minded defaults in the apps I build.</p>
               </li>
               <li>
                   <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                 <p>Providing swift incident response and ongoing monitoring to detect and counter breaches.</p>
-              </li>
-              <li>
-                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
-                 <p>Educating personnel on vital cybersecurity protocols.</p> 
+                 <p>Help teams tighten auth, headers, and deployment setup.</p>
               </li>
             </ul>
           </article>
-
-          {}
-
-
 
       </div>
     </section>

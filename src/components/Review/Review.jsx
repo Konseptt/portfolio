@@ -14,26 +14,19 @@ const Review = () => {
   const reviewData = [
     {
       avatar: require('../../assets/avatar1.webp'),
-      name: 'Random',
-      review: `It's rare that you come across standout talent like Ranjan Sharma. 
-      I had the pleasure of working with Ranjan Sharma for three years at college, 
-      collaborating on several project teams .
-      I'm was always in awe of Ranjan Sharma ability to command a room and always so passionate with his work. Ranjan Sharma would be an asset to any team.`
+      name: 'College teammate',
+      review: `Worked with Ranjan on a few class projects. He learns fast, shows up prepared, and does his share without needing reminders.`
     },
     {
       avatar: require('../../assets/avatar2.webp'),
-      name: "Random",
-      review: `It was such a pleasure to take a few classes with Ranjan Sharma. He was always accommodating, kind, and motivated. We worked on some projects together, and he is very applied and aims for high-quality work.
-      He is creative, smart, has excellent communication skills, and is willing to help when you need it. He is the kind of person who does anything for the group’s benefit. A great colleague!`
+      name: 'Study group',
+      review: `Took several courses with him. Good at explaining his approach, writes clean code, and actually finishes what he starts.`
     }
   ]
 
-
-
-
   return (
     <section id='review'>
-        <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='700'>Feedback from colleagues and clients</p>
+        <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='700'>From people I've worked with</p>
         <h2 data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='900'>Reviews</h2>
 
         <Swiper 
@@ -52,7 +45,7 @@ const Review = () => {
             reviewData.map(({avatar, name,review }, index) => (
               <SwiperSlide className="review" key={index}>
                 <div className="client__avatar">
-                  <img src={avatar} alt={`${name} reviewer avatar`} width="64" height="64" loading="lazy" decoding="async" />
+                  <img src={avatar} alt={`${name} avatar`} width="64" height="64" loading="lazy" decoding="async" />
                 </div>
                 <p className='client__name'>{name}</p>
                 <small className='client__review'>{review}</small>
