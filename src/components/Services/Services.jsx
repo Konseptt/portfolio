@@ -17,27 +17,27 @@ const Services = () => {
           </div>
           <ul className="service__list">
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>well-versed in programming languages such as Java, Python, and C++.</p>
              </li>
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Developing user personas and user journeys to represent target audience.</p>
              </li>
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>very familiar with software development tools such as Git, Eclipse, and IntelliJ.</p>
              </li>
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Designing the layout, navigation, and visual elements of the user interface.</p>
              </li>
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                <p>Continuously testing and iterating on the design to improve usability and effectiveness.</p>
              </li>
              <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                <p>Continuously testing and iterating on the design to improve usability.</p>
              </li>
           </ul>
@@ -53,27 +53,27 @@ const Services = () => {
 
           <ul className="service__list">
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Designing and building websites and web applications using best practices.</p>
             </li>
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Developing responsive, mobile-friendly websites that work on various devices.</p>
             </li>
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Implementing features and functionality using server-side languages</p>
             </li>
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Setting up and configuring servers and hosting environments</p>
             </li>
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Testing and debugging websites and applications to ensure functionality</p>
             </li>
             <li>
-                <BiCheck className='service__list-icon'/>
+                <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                 <p>Providing technical support and assistance to website users and clients.</p>
             </li>
           </ul>
@@ -89,27 +89,27 @@ const Services = () => {
           </div>
           <ul className="service__list">
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                  <p>Implementing robust defense mechanisms to safeguard digital assets against evolving cyber threats.</p>
               </li>
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                  <p>Conducting risk assessments to proactively identify, neutralize potential vulnerabilities.</p>
               </li>
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                   <p>Managing advanced security tools for robust defense.</p>
               </li>
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                  <p>Performing regular security audits and penetration testing to fortify system resilience.</p>
               </li>
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                  <p>Providing swift incident response and ongoing monitoring to detect and counter breaches.</p>
               </li>
               <li>
-                  <BiCheck className='service__list-icon'/>
+                  <BiCheck className='service__list-icon' aria-hidden="true" focusable="false" />
                  <p>Educating personnel on vital cybersecurity protocols.</p> 
               </li>
             </ul>

@@ -126,16 +126,26 @@ const Portfolio = () => {
               >{name}</h3>
 
               <div className="portfolio__item-cta">
-                <a className='btn'
-                  href={githubLink}
-                  target='_blank'
-                  rel="noreferrer"
-                >GitHub</a>
-                <a className='btn btn-primary'
-                  href={deployedLink}
-                  target='_blank'
-                  rel="noreferrer"
-                >Live Demo</a>
+                {deployedLink === githubLink ? (
+                  <a className='btn btn-primary'
+                    href={githubLink}
+                    target='_blank'
+                    rel="noreferrer"
+                  >View on GitHub</a>
+                ) : (
+                  <>
+                    <a className='btn'
+                      href={githubLink}
+                      target='_blank'
+                      rel="noreferrer"
+                    >GitHub</a>
+                    <a className='btn btn-primary'
+                      href={deployedLink}
+                      target='_blank'
+                      rel="noreferrer"
+                    >Live Demo</a>
+                  </>
+                )}
               </div>
           </article>
            ))

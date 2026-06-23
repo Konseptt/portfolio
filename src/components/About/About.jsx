@@ -28,22 +28,22 @@ const About = () => {
       <div className="stage-cube-cont" data-aos="fade-right" data-aos-anchor=".about__container"  data-aos-duration="500">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faNode} color="#3C873A" />
+              <FontAwesomeIcon icon={faNode} color="#3C873A" aria-hidden="true" />
             </div>
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" aria-hidden="true" />
             </div>
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" aria-hidden="true" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" aria-hidden="true" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" aria-hidden="true" />
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" aria-hidden="true" />
             </div>
           </div>
         </div>
@@ -53,21 +53,21 @@ const About = () => {
             
             {/* Experience  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="500">
-                <FaAward className='about__icon'/>
+                <FaAward className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Experience</h3>
                 <small>4+ years Experience</small>
             </article>
 
             {/* Collaborators  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="700">
-                <FiUsers className='about__icon'/>
+                <FiUsers className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Collaborators</h3>
                 <small>30+ Worldwide</small>
             </article>
 
             {/* Projects  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="900">
-                <BsClipboardCheck className='about__icon'/>
+                <BsClipboardCheck className='about__icon' aria-hidden="true" focusable="false" />
                 <h3>Repositories</h3>
                 <small>50+ on GitHub</small>
             </article>
@@ -80,7 +80,7 @@ const About = () => {
             A chess, astronomy, and outdoor enthusiast, always chasing ambitious projects and good people. Let's build something useful together.
            </p>
 
-           <a href='#contact' className='btn btn-primary' data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1200">Let's chat <FaTelegramPlane/></a>
+           <a href='#contact' className='btn btn-primary' aria-label="Contact Ranjan Sharma" data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1200">Let's chat <FaTelegramPlane aria-hidden="true" focusable="false" /></a>
         </div>
       </div>
     </section>

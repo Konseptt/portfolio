@@ -41,6 +41,12 @@ const Review = () => {
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        a11y={{
+          enabled: true,
+          prevSlideMessage: 'Previous review',
+          nextSlideMessage: 'Next review',
+          paginationBulletMessage: 'Go to review {{index}}',
+        }}
         className="container reviews__container" data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='1800'>
           {
             reviewData.map(({avatar, name,review }, index) => (

@@ -12,7 +12,7 @@ const CTA = () => {
       >
         Resume
       </a>
-      <a data-aos="fade-left" href="#contact" className="btn btn-primary">
+      <a data-aos="fade-left" href="#contact" className="btn btn-primary" aria-label="Contact Ranjan Sharma">
         Let's Connect
       </a>
     </div>

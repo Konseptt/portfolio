@@ -16,7 +16,7 @@ const Experience = () => {
             <div className="experience__content">
               {/* HTML  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                   <h4>HTML</h4>
                   <small className='text-light'>Experienced</small>
@@ -25,7 +25,7 @@ const Experience = () => {
 
               {/* CSS  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                   <h4>CSS</h4>
                   <small className='text-light'>Intermediate</small>
@@ -34,7 +34,7 @@ const Experience = () => {
 
               {/* JavaScript  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
@@ -43,7 +43,7 @@ const Experience = () => {
               
               {/* TypeScript  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>TypeScript</h4>
                 <small className='text-light'>Experienced</small>
@@ -52,7 +52,7 @@ const Experience = () => {
 
               {/* React  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>React</h4>
                 <small className='text-light'>Intermediate</small>
@@ -61,7 +61,7 @@ const Experience = () => {
 
               {/* Tailwind  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>Tailwind</h4>
                 <small className='text-light'>Intermediate</small>
@@ -70,7 +70,7 @@ const Experience = () => {
 
               {/* Jquery  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>Jquery</h4>
                 <small className='text-light'>Intermediate</small>
@@ -86,7 +86,7 @@ const Experience = () => {
             <div className="experience__content">
               {/* Node JS  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>Node JS</h4>
                 <small className='text-light'>Experienced</small>
@@ -95,7 +95,7 @@ const Experience = () => {
 
               {/* MongoDB  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>MongoDB</h4>
                 <small className='text-light'>Intermediate</small>
@@ -104,7 +104,7 @@ const Experience = () => {
 
               {/* Rust  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>Rust</h4>
                 <small className='text-light'>Experienced</small>
@@ -113,7 +113,7 @@ const Experience = () => {
               
               {/* MySQL  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Intermediate</small>
@@ -122,7 +122,7 @@ const Experience = () => {
 
               {/* REST  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>REST</h4>
                 <small className='text-light'>Intermediate</small>
@@ -131,7 +131,7 @@ const Experience = () => {
 
               {/* Django  */}
               <article className="experience__details">
-                <BsPatchCheckFill className="experience__details-icon"/>
+                <BsPatchCheckFill className="experience__details-icon" aria-hidden="true" focusable="false" />
                 <div>
                 <h4>Django</h4>
                 <small className='text-light'>Basic</small>

@@ -49,7 +49,7 @@ const Header = () => {
           />
         </div>
 
-        <a href="#contact" className="scroll__down">
+        <a href="#contact" className="scroll__down" aria-label="Contact Ranjan Sharma">
           Scroll Down {">>"}{" "}
         </a>
       </article>

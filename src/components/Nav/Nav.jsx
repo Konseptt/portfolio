@@ -49,7 +49,7 @@ const Nav = ({activeNav, setActiveNav}) => {
       <a href="#contact"  
         className={activeNav === '#contact' ? 'active' : ''}
         onClick={handleClick}
-        aria-label="Contact"
+        aria-label="Contact Ranjan Sharma"
         ><BiMessageDetail aria-hidden="true" focusable="false" /></a>
     </nav>
   )
