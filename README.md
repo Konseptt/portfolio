@@ -2,13 +2,7 @@
 
 Hi, I am Ranjan Sharma. This repository contains the source code for my personal portfolio website.
 
-Live site: [syllabuscal.ranjansharma.info.np](https://syllabuscal.ranjansharma.info.np)
-
-## Repository details to set on GitHub
-
-- **Description:** Personal portfolio website of Ranjan Sharma
-- **Website:** https://syllabuscal.ranjansharma.info.np
-- **Topics:** `portfolio react frontend web-development personal-website cyber-security software-engineering`
+Live site: [ranjansharma.info.np](https://ranjansharma.info.np)
 
 ## What this site includes
 
