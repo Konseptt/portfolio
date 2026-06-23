@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5 data-aos="fade-up" data-aos-anchor="#contact"  data-aos-duration='700'>Reach out to me</h5>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#contact"  data-aos-duration='700'>Reach out to me</p>
       <h2 data-aos="fade-up" data-aos-anchor="#contact"  data-aos-duration='900'>Contact Me</h2>
       <ToastContainer/>
 
@@ -38,7 +38,7 @@ const Contact = () => {
           <article className="contact__option" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1600'>
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>hello@ranjansharma.info.np</h5>
+            <p>hello@ranjansharma.info.np</p>
             <a href="mailto:hello@ranjansharma.info.np" target='_blank'  rel="noreferrer">Email me</a>
           </article>
 
@@ -46,7 +46,7 @@ const Contact = () => {
           <article className="contact__option" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1300'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
-            <h5>Ranjan Sharma</h5>
+            <p>Ranjan Sharma</p>
             <a href="https://www.linkedin.com/in/konseptt/" target='_blank'  rel="noreferrer">Let's connect</a>
           </article>
 
@@ -54,7 +54,7 @@ const Contact = () => {
           <article className="contact__option" data-aos="fade-up" data-aos-anchor=".contact__container"  data-aos-duration='1000'>
             <BsInstagram className='contact__option-icon'/>
             <h4>Github</h4>
-            <h5>konseptt</h5>
+            <p>konseptt</p>
             <a href="https://github.com/konseptt" target='_blank'  rel="noreferrer">Send a DM</a>
           </article>
 

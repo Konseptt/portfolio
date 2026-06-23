@@ -19,7 +19,7 @@ const Modal = ({ closeModal, project }) => {
 
           <div className="modal-title">
                 <div className="modal-image">
-                    <img src={image} alt={`${name} project screenshot by Ranjan Sharma`} />
+                    <img src={image} alt={`${name} project screenshot by Ranjan Sharma`} width="400" height="200" loading="lazy" decoding="async" />
                 </div>
           
                 <h4>{name}</h4>

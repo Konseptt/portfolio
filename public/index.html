@@ -33,9 +33,23 @@
     <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.webp" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <!-- Perf: preconnect to Google Fonts (used in index.css) -->
+    <link rel="preload" as="image" href="%PUBLIC_URL%/e.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- Perf: non-blocking Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap"
+      />
+    </noscript>
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />

@@ -9,22 +9,11 @@ import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import AOS from 'aos';
-import Loader from './components/Loader/Loader';
-
 
 const App = () => {
-
-  const [isLoading, setIsLoading] = useState(true);
-  const [activeNav,setActiveNav] = useState('#')
+  const [activeNav,setActiveNav] = useState('#home')
 
   useEffect(() => {
-    const hideLoader = () => setIsLoading(false);
-    if (document.readyState === 'complete') {
-      hideLoader();
-    } else {
-      window.addEventListener('load', hideLoader, { once: true });
-    }
-
     AOS.init({
       duration: 800,
       disable: function () {
@@ -36,7 +25,7 @@ const App = () => {
 
     const onScroll = () => {
       if (window.scrollY < 50) {
-        setActiveNav('#');
+        setActiveNav('#home');
         return;
       }
 
@@ -55,13 +44,11 @@ const App = () => {
     window.addEventListener('scroll', onScroll);
 
     return () => {
-      window.removeEventListener('load', hideLoader);
       window.removeEventListener('scroll', onScroll);
     };
   }, []);
 
   return (
-   isLoading ? <Loader/> : (
     <main>
       <Header/>
       <Nav activeNav={activeNav} setActiveNav={setActiveNav}/>
@@ -73,7 +60,6 @@ const App = () => {
       <Contact/>
       <Footer/>
     </main>
-   )
   )
 }
 

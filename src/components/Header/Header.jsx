@@ -1,22 +1,20 @@
 import React from "react";
-import Logo from "../../assets/e.webp";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocials";
 import "./header.css";
 
-import "aos/dist/aos.css";
-
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <article className="container header__container">
-        <h5
+        <p
+          className="header__greeting"
           data-aos="fade-up"
           data-aos-anchor=".header__container"
           data-aos-duration="1200"
         >
           Hello I'm
-        </h5>
+        </p>
         <h1
           data-aos="fade-up"
           data-aos-anchor=".header__container"
@@ -24,14 +22,14 @@ const Header = () => {
         >
           Ranjan Sharma
         </h1>
-        <h5
+        <p
           data-aos="fade-up"
           data-aos-anchor=".header__container"
           data-aos-duration="900"
-          className="text-light"
+          className="text-light header__roles"
         >
           CYBER SECURITY ENGINEER | SOFTWARE ENGINEER | FRONT-END WEB DEVELOPER.
-        </h5>
+        </p>
         <CTA />
 
         <HeaderSocial />
@@ -42,8 +40,12 @@ const Header = () => {
             data-aos="slide-up"
             data-aos-anchor=".logo"
             data-aos-duration="1400"
-            src={Logo}
+            src="/e.webp"
             alt="Ranjan Sharma - cybersecurity and software engineer portrait"
+            width="840"
+            height="840"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
 

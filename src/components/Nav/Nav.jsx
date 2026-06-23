@@ -15,35 +15,42 @@ const Nav = ({activeNav, setActiveNav}) => {
   }
 
   return (
-    <nav>
-      <a href="#" 
-        className={activeNav === '#' ? 'active' : ''}
+    <nav aria-label="Page sections">
+      <a href="#home" 
+        className={activeNav === '#home' ? 'active' : ''}
         onClick={handleClick}
-        ><AiOutlineHome/></a>
+        aria-label="Home"
+        ><AiOutlineHome aria-hidden="true" focusable="false" /></a>
       <a href="#about" 
         className={activeNav === '#about' ? 'active' : ''}
         onClick={handleClick}
-        ><AiOutlineUser/></a>
+        aria-label="About"
+        ><AiOutlineUser aria-hidden="true" focusable="false" /></a>
       <a href="#experience" 
         className={activeNav === '#experience' ? 'active' : ''}
         onClick={handleClick}
-        ><BiBook/></a>
+        aria-label="Experience"
+        ><BiBook aria-hidden="true" focusable="false" /></a>
       <a href="#services" 
         className={activeNav === '#services' ? 'active' : ''}
         onClick={handleClick}
-        ><RiServiceLine/></a>
+        aria-label="Services"
+        ><RiServiceLine aria-hidden="true" focusable="false" /></a>
       <a href="#portfolio"  
         className={activeNav === '#portfolio' ? 'active' : ''}
         onClick={handleClick}
-        ><FaLaptopCode/></a>
+        aria-label="Portfolio"
+        ><FaLaptopCode aria-hidden="true" focusable="false" /></a>
       <a href="#review"  
         className={activeNav === '#review' ? 'active' : ''}
         onClick={handleClick}
-        ><TbStars/></a>
+        aria-label="Reviews"
+        ><TbStars aria-hidden="true" focusable="false" /></a>
       <a href="#contact"  
         className={activeNav === '#contact' ? 'active' : ''}
         onClick={handleClick}
-        ><BiMessageDetail/></a>
+        aria-label="Contact"
+        ><BiMessageDetail aria-hidden="true" focusable="false" /></a>
     </nav>
   )
 }

@@ -107,9 +107,9 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
-        <h5 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='700'>My most recent projects</h5>
+        <p className="section__subtitle" data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='700'>My most recent projects</p>
         <h2 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='900'>Portfolio by Ranjan Sharma</h2>
-        <h5 data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='900'>Click on projects to learn more</h5>
+        <p className="section__subtitle" data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration='900'>Click on projects to learn more</p>
 
         <div className="container portfolio__container">
 
@@ -118,7 +118,7 @@ const Portfolio = () => {
           <article className='portfolio__item' key={name} data-aos="fade-up" data-aos-anchor=".portfolio__container"  data-aos-duration={fadeDuration}
           >
               <div className="portfolio__item-image">
-                  <img src={image} alt={`${name} project screenshot by Ranjan Sharma`} />
+                  <img src={image} alt={`${name} project screenshot by Ranjan Sharma`} width="400" height="200" loading="lazy" decoding="async" />
               </div>
               <h3
                className='portfolio__item-name'

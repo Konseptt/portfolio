@@ -6,7 +6,7 @@ import { BiCheck } from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-      <h5 data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='700'>The things i can do for you</h5>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='700'>The things i can do for you</p>
       <h2 data-aos="fade-up" data-aos-anchor="#services"  data-aos-duration='900'>My Services</h2>
       
       <div className="container services__container">

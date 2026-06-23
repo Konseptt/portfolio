@@ -33,7 +33,7 @@ const Review = () => {
 
   return (
     <section id='review'>
-        <h5  data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='700'>Feedback from colleagues and clients</h5>
+        <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='700'>Feedback from colleagues and clients</p>
         <h2 data-aos="fade-up" data-aos-anchor="#review"  data-aos-duration='900'>Reviews</h2>
 
         <Swiper 
@@ -46,9 +46,9 @@ const Review = () => {
             reviewData.map(({avatar, name,review }, index) => (
               <SwiperSlide className="review" key={index}>
                 <div className="client__avatar">
-                  <img src={avatar} alt={`${name} reviewer avatar`} />
+                  <img src={avatar} alt={`${name} reviewer avatar`} width="64" height="64" loading="lazy" decoding="async" />
                 </div>
-                <h5 className='client__name'>{name}</h5>
+                <p className='client__name'>{name}</p>
                 <small className='client__review'>{review}</small>
             </SwiperSlide>
             ))

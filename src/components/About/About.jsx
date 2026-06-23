@@ -21,7 +21,7 @@ import {
 const About = () => {
   return (
     <section id='about'>
-      <h5 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Unlock the mysteries of me</h5>
+      <p className="section__subtitle" data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='900'>Unlock the mysteries of me</p>
       <h2 data-aos="fade-up" data-aos-anchor="#about"  data-aos-duration='700'>About me</h2>
 
       <div className="container about__container">
@@ -54,21 +54,21 @@ const About = () => {
             {/* Experience  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="500">
                 <FaAward className='about__icon'/>
-                <h5>Experience</h5>
+                <h3>Experience</h3>
                 <small>4+ years Experience</small>
             </article>
 
             {/* Collaborators  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="700">
                 <FiUsers className='about__icon'/>
-                <h5>Collaborators</h5>
+                <h3>Collaborators</h3>
                 <small>30+ Worldwide</small>
             </article>
 
             {/* Projects  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="900">
                 <BsClipboardCheck className='about__icon'/>
-                <h5>Repositories</h5>
+                <h3>Repositories</h3>
                 <small>50+ on GitHub</small>
             </article>
           </div>
