@@ -1,0 +1,17 @@
+{
+  "name": "Ranjan Sharma — Portfolio",
+  "short_name": "Ranjan Sharma",
+  "description": "Official portfolio of Ranjan Sharma — cybersecurity engineer, software engineer, and front-end web developer.",
+  "lang": "en",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#152238",
+  "background_color": "#152238",
+  "categories": ["portfolio", "technology", "developer"],
+  "icons": [
+    { "src": "/android-chrome-192x192.webp", "sizes": "192x192", "type": "image/webp", "purpose": "any" },
+    { "src": "/android-chrome-512x512.webp", "sizes": "512x512", "type": "image/webp", "purpose": "any" }
+  ]
+}

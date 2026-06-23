@@ -68,16 +68,16 @@ const About = () => {
             {/* Projects  */}
             <article className="about__card" data-aos="fade-left" data-aos-anchor=".about__cards"  data-aos-duration="900">
                 <BsClipboardCheck className='about__icon'/>
-                <h5>Projects</h5>
-                <small>10+ Completed projects</small>
+                <h5>Repositories</h5>
+                <small>50+ on GitHub</small>
             </article>
           </div>
 
            <p  data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1000">
                Hello, there. I'm Ranjan Sharma but everyone calls me Konsept. <br />
-               I am a recent school graduate with a passion for software engineering, cyber security, and front-end web development.
+               I'm a software and cyber security engineer who codes "anything and everything" - lately in Rust and TypeScript, from my own programming language and compiler (LyangLang) to AI-powered research tools and security apps.
               <br />
-            A chess, astronomy, and outdoor activity enthusiast. interested in building "anything and everything" and working on ambitious projects and positive people. Let's build something useful together
+            A chess, astronomy, and outdoor enthusiast, always chasing ambitious projects and good people. Let's build something useful together.
            </p>
 
            <a href='#contact' className='btn btn-primary' data-aos="fade-up" data-aos-anchor=".about__content"  data-aos-duration="1200">Let's chat <FaTelegramPlane/></a>

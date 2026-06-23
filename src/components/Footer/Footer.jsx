@@ -19,7 +19,7 @@ const Footer = () => {
 
 
     <div className="footer__socials" data-aos="fade-up" data-aos-anchor=".footer__container"  data-aos-duration='1600'>
-      <a href="https://www.linkedin.com/in/ranjan-sharma-617655172/"><BsLinkedin/></a>
+      <a href="https://www.linkedin.com/in/konseptt/"><BsLinkedin/></a>
       <a href="https://www.instagram.com/snow_burnt/"><BsInstagram/></a>
       <a href="https://www.instagram.com/snow_burnt/"><SiCodewars/></a>
     </div>
